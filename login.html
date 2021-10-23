@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login aluno/servidor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="img/touch_icon.png">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link media="all" href="css/main.css" type="text/css" rel="stylesheet" id="main-css">
+    <link media="all" href="css/style.css" type="text/css" rel="stylesheet">
+    <link media="screen" href="css/plone.css" type="text/css" rel="stylesheet" id="plone-css">
+    <link media="screen" href="css/login.css" type="text/css" rel="stylesheet" id="plone-css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: lightcyan;
+         color: black;
+         text-align: center;
+      }
+      </style>
+</head>
+
+<body>
+    <div id="accessibility-wrapper" >
+        <ul id="accessibility" class="container">
+                <li>
+                    <a accesskey="1" href="#acontent" id="link-conteudo">
+                        Ir para o conte&uacute;do
+                        <span>1</span>
+                    </a>
+                </li>
+                <li>
+                    <a accesskey="2" href="#anavigation" id="link-navegacao">
+                        Ir para o menu
+                        <span>2</span>
+                    </a>
+                </li>
+                <li>
+                    <a accesskey="3" href="#SearchableText" id="link-buscar">
+                        Ir para a busca
+                        <span>3</span>
+                    </a>
+                </li>
+                <li>
+                    <a accesskey="4" href="#afooter" id="link-rodape">
+                        Ir para o rodap&eacute;
+                        <span>4</span>
+                    </a>
+                </li>
+            </ul>                                   
+</div>
+
+  <div id="header" role="banner">
+
+    <div class="page-header">
+    <div id="logo">
+            <!-- <span class="socialShare">  </span> -->
+        <a href="#" title="#">
+            <span id="portal-title-1">IFG</span>
+            <h1 id="portal-title">Instituto Federal de Goiás</h1>
+            <span id="portal-description">Ministério da Educação</span>                     
+        </a>
+        <div class="socialShare" style="float:left; margin-left:32%; margin-top: -2em"></div>
+
+    </div>        
+</div>
+<div id="sobre" class="container">
+    <ul>
+        <li id="link-sobre">
+            <a href="#">Perguntas frequentes</a>
+        </li>
+        <li id="link-central">
+            <a href="#">Comunicação</a>
+        </li>
+
+        <li id="sic">
+                <a href="#">Serviço de Informação ao Cidadão</a>
+            </li>
+
+            <li id="ouvidoria">
+                    <a href="#">Ouvidoria</a>
+                </li>
+
+                <li id="contato">
+                        <a href="#">Contato</a>
+                    </li>
+    </ul>
+</div>
+</div>
+<br>
+
+<div class="container">
+  <form class="form-horizontal" action="index.html">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="matricula">Matrícula:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="matricula" placeholder="Sua Matrícula" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Sua Senha Acadêmica" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">              
+      <div class="col-sm-offset-2 col-sm-10">        
+          <div class="dropdown" style="margin: 0%">
+              <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" style="width: 100%; margin-bottom: 0%;">Logar Como:
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu" style="width: 100%;">
+                <li class="dropdown-header">Qual sua posição no IFG?</li>
+                <li><a href="#">Aluno</a></li>
+                <li><a href="#">Servidor</a></li>
+                <li><a href="#">Diretor</a></li>       
+              </ul>
+            </div>
+          <input type="reset" value="Limpar"></input>
+          <input type="submit" name="send" value="Entrar" id="send"></input>            
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Footer -->
+<div class="container">
+    <div class="footer">
+          <p>Desenvolvido por Lucas Alves Da Costa</p>
+          <div>
+              <a href="http://www.acessoainformacao.gov.br/" class="logo-acesso">
+                  <img src="img/acesso-a-infornacao.png" alt="Acesso a Informa&ccedil;&atilde;o" />
+              </a>
+              <a href="http://www.brasil.gov.br/" class="logo-brasil">
+                  <img src="img/brasil.png" alt="Brasil - Governo Federal" />
+              </a>
+          </div>
+        </div>
+
+    </div>
+    
+    
+
+</body>
+</html>

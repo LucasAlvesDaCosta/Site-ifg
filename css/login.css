@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {/*apenas para formatar o texto do h1*/
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  form label {
+    float: left;
+    width: 18%;/* diminui apenas para se ajustar corretamenta ao meu monitor*/
+    margin-bottom: 5px;
+    padding-top: 8px;
+  }
+  form input {
+    float: left;
+    width: 80%;
+    margin-bottom: 1px;
+    margin-top: 0%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777;
+    outline: 0;
+    margin-right: -18px; /* Remove o espaço a direira gerado pelo padding e pela borda */
+  }
+  form input:focus {
+    border-color: #0099ff;
+    box-shadow: 1px 1px 3px #333;
+  }
+  form input:hover {
+    border-color: #0099ff;
+  }
+  input::-moz-focus-inner {
+    border: 0;
+  }
+  
+  form input[type=reset], form input[type=submit] {
+    width: 50%;
+    background: linear-gradient(lightgray, gray);
+    cursor: pointer;
+    border: 1px solid lightgray;
+    margin-top: 3px;
+    margin-right: 0;
+  }
+  form input[type=reset]:active, form input[type=submit]:active {
+    width: 50%;
+    background: linear-gradient(gray,lightgray);
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  form label{
+    color: rgba(0, 0, 0, 0.932);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px lightblue;
+  }
+  
